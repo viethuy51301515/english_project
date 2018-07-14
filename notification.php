@@ -30,61 +30,92 @@
     				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
                         <div style="float: left;font-size: 20px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 Notification
-                                <hr style="size: 5px;">
+                                 <h4 class="ui horizontal divider header">
+                                  <i class="tag icon"></i>
+                                  Description
+                                </h4>
                         </div>
-                        <div>
-    					<table class="table">
-                            <col width="300">
-                            <col width="200">
-                            <col width="200">
-                            <col width="200">
-                            <thead >
-                                <tr>
-                                    <th>Subject</th>
-                                    <th>Saved By </th>
-                                    <th>Date</th>
-                                    <th>Piority</th>
-                                </tr>
-                            </thead> 
-                            <tbody>
-                                <tr>
-                                    <td><a href="#">Sub Class</a></td>
-                                    <td>Le Ngoc Thanh Thao</td>
-                                    <td>10/09/2018</td>
-                                    <td>Important</td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#">Sub Class</a></td>
-                                    <td>Le Ngoc Thanh Thao</td>
-                                    <td>10/09/2018</td>
-                                    <td>Important</td>
-                                </tr>
-                                <tr>
-                                    <td>Sub Class</td>
-                                    <td>Le Ngoc Thanh Thao</td>
-                                    <td>10/09/2018</td>
-                                    <td>Important</td>
-                                </tr>
-                                <tr>
-                                    <td>Sub Class</td>
-                                    <td>Le Ngoc Thanh Thao</td>
-                                    <td>10/09/2018</td>
-                                    <td>Important</td>
-                                </tr>
-                                <tr>
-                                    <td>Sub Class</td>
-                                    <td>Le Ngoc Thanh Thao</td>
-                                    <td>10/09/2018</td>
-                                    <td>Important</td>
-                                </tr>
-                                <tr>
-                                    <td>Sub Class</td>
-                                    <td>Le Ngoc Thanh Thao</td>
-                                    <td>10/09/2018</td>
-                                    <td>Important</td>
-                                </tr>
-                            </tbody>              
-                        </table>
-                    </div>
+    					   <div class="ui comments">
+                              <div class="comment">
+                                <a class="avatar">
+                                  <img src="icon/user1.png" style="height: 30;width: 30">
+                                </a>
+                                <div class="content">
+                                  <a class="author">Matt</a>
+                                  <div class="metadata">
+                                    <span class="date">Today at 5:42PM</span>
+                                  </div>
+                                  <div class="text">
+                                    Attention , we have a class tomorrow.
+                                  </div>
+                                  <div class="actions">
+                                    <a class="reply">Reply</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="comment">
+                                <a class="avatar">
+                                  <img src="icon/user2.png" style="height: 30;width: 30">
+                                </a>
+                                <div class="content">
+                                  <a class="author">Elliot Fu</a>
+                                  <div class="metadata">
+                                    <span class="date">Yesterday at 12:30AM</span>
+                                  </div>
+                                  <div class="text">
+                                    <p>This has been very useful for my research. Thanks as well!</p>
+                                  </div>
+                                  <div class="actions">
+                                    <a class="reply">Reply</a>
+                                  </div>
+                                </div>
+                                <div class="comments">
+                                  <div class="comment">
+                                    <a class="avatar">
+                                      <img src="icon/user1.png" style="height: 30;width: 30">
+                                    </a>
+                                    <div class="content">
+                                      <a class="author">Jenny Hess</a>
+                                      <div class="metadata">
+                                        <span class="date">Just now</span>
+                                      </div>
+                                      <div class="text">
+                                        Elliot you are always so right :)
+                                      </div>
+                                      <div class="actions">
+                                        <a class="reply">Reply</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="comment">
+                                <a class="avatar">
+                                  <img src="icon/user2.png" style="height: 30;width: 30">
+                                </a>
+                                <div class="content">
+                                  <a class="author">Joe Henderson</a>
+                                  <div class="metadata">
+                                    <span class="date">5 days ago</span>
+                                  </div>
+                                  <div class="text">
+                                    Dude, this is awesome. Thanks so much
+                                  </div>
+                                  <div class="actions">
+                                    <a class="reply">Reply</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <form class="ui reply form">
+                                <div class="field">
+                                  <textarea></textarea>
+                                </div>
+                                <div class="ui blue labeled submit icon button">
+                                  <i class="icon edit"></i> Add Reply
+                                </div>
+                              </form>
+                            </div>
     				</div>
+                </div>
+            </div>
 </html>

@@ -52,22 +52,22 @@
 				 <div class="ui vertical menu" id="left-menu">
 				  
 				  <a class="item" href="lesson.php">
-				    <i class="grid layout icon"></i> Lesson
+				    <i class="grid layout icon" ></i> Lesson
 				  </a>
 				  <a class="item" href="document_page.php">
-				    <i class="grid layout icon"></i> Document
+				    <i class="grid layout icon"></i> Documment
 				  </a>
 				  <a class="item" href="homework.php">
-				    <i class="grid layout icon"></i> Homework
+				    <i class="grid layout icon"></i> Online Test
 				  </a>
 				  <a class="item" href="grade.php">
 				    <i class="grid layout icon"></i> Grade
 				  </a>
-				  <a class="item" href="#">
+				  <a class="item" href="personal_info.php">
 				    <i class="grid layout icon"></i> Personal Info
 				  </a>
 				  <a class="item" href="notification.php">
-				    <i class="grid layout icon"></i> Notification
+				    <i class="grid layout icon"></i> Notification <span class="badge">42</span>
 				  </a>
 				  <a class="item">
 				    <i class="grid layout icon"></i> FQE

@@ -16,6 +16,51 @@
     			<div class="row">
     				<?php include 'snippet/leftmenu.php';?>
     				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
-    					
+                        <div style="float: left;font-size: 20px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                Test Online
+                        </div>
+                         <h4 class="ui horizontal divider header">
+                          <i class="tag icon"></i>
+                          Description
+                        </h4>
+    					<div class="ui relaxed divided list">
+                          <div class="item">
+                            <i class="large github middle aligned icon"></i>
+                            <div class="content">
+                              <a class="header">Semantic-Org/Semantic-UI</a>
+                              <div class="description">Updated 10 mins ago</div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <i class="large github middle aligned icon"></i>
+                            <div class="content">
+                              <a class="header">Semantic-Org/Semantic-UI-Docs</a>
+                              <div class="description">Updated 22 mins ago</div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <i class="large github middle aligned icon"></i>
+                            <div class="content">
+                              <a class="header">Semantic-Org/Semantic-UI-Meteor</a>
+                              <div class="description">Updated 34 mins ago</div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <i class="large github middle aligned icon"></i>
+                            <div class="content">
+                              <a class="header">Semantic-Org/Semantic-UI-Meteor</a>
+                              <div class="description">Updated 34 mins ago</div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <i class="large github middle aligned icon"></i>
+                            <div class="content">
+                              <a class="header">Semantic-Org/Semantic-UI-Meteor</a>
+                              <div class="description">Updated 34 mins ago</div>
+                            </div>
+                          </div>
+                        </div>
     				</div>
+                </div>
+            </div>
 </html>
