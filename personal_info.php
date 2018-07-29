@@ -29,17 +29,6 @@
                               </div>
                             </div>
                           </div>
-                          <div class="field">
-                            <label>Billing Address</label>
-                            <div class="fields">
-                              <div class="twelve wide field">
-                                <input type="text" name="shipping[address]" placeholder="Street Address">
-                              </div>
-                              <div class="four wide field">
-                                <input type="text" name="shipping[address-2]" placeholder="Apt #">
-                              </div>
-                            </div>
-                          </div>
                           <div class="two fields">
                             <div class="field">
                               <label>State</label>
@@ -140,4 +129,12 @@
         </div>
     </div>
 </div>
+         <script type="text/javascript">
+                        $(document).ready(function() {
+                            activeLeftMenu(5);
+                            $('.ui.dropdown')
+                              .dropdown()
+                            ;
+                        });
+                    </script>
 </html>

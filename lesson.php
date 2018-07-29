@@ -28,12 +28,12 @@
   </style>
 </head>
     <body>
-    	<?php include 'snippet/menu.php';?>
+      <?php include 'snippet/menu.php';?>
             
-    		<div class="container-fluid">
-    			<div class="row">
-    				<?php include 'snippet/leftmenu.php';?>
-    				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
+        <div class="container-fluid">
+          <div class="row">
+            <?php include 'snippet/leftmenu.php';?>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
                         <div  class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
                             <div class="ui three link cards">
                             <?php for($x=0;$x <= 12;$x++){ ?>
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <!-- <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 iframe">
-    					   <iframe src="zoodiac.pdf" width="100%" height="550"></iframe>
+                 <iframe src="zoodiac.pdf" width="100%" height="550"></iframe>
                         </div>
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
                             <div class="list-lesson">
@@ -112,7 +112,7 @@
                             </ul>
                             </div>
                         </div> -->
-    				</div>
+            </div>
                     <div class="ui modal">
                       <div class="actions">
                         <iframe src="zoodiac.pdf" width="100%" height="525"></iframe>
@@ -120,6 +120,9 @@
                       </div>
                     </div>
                     <script type="text/javascript">
+                        $(document).ready(function() {
+                            activeLeftMenu(1);
+                        });
                         $(".card").click(function() {
                             // body...
                             $(".ui.modal").modal("show");
@@ -127,6 +130,6 @@
                         $(".ui.button").click(function() {
                             // body...
                              $(".ui.modal").modal("hide");
-                        })
+                        });
                     </script>
 </html>

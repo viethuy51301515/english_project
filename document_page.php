@@ -10,13 +10,12 @@
   <link rel="stylesheet" type="text/css" href="css/general.css">
 </head>
     <body>
-    	<?php include 'snippet/menu.php';?>
-
-    		<div class="container-fluid">
-    			<div class="row">
-    				<?php include 'snippet/leftmenu.php';?>
-    				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
-    					<div style="float: left;font-size: 20px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <?php include 'snippet/menu.php';?>
+            <div class="container-fluid">
+                <div class="row">
+                    <?php include 'snippet/leftmenu.php';?>
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
+                        <div style="float: left;font-size: 20px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 Document
                                 <h4 class="ui horizontal divider header">
   <i class="tag icon"></i>
@@ -93,7 +92,12 @@
                                     </table>
                                 </div>
                             </div>
-    				</div>
+                    </div>
                 </div>
             </div>
+             <script type="text/javascript">
+                $(document).ready(function() {
+                    activeLeftMenu(2);
+                });
+            </script>
 </html>

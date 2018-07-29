@@ -10,12 +10,12 @@
   <link rel="stylesheet" type="text/css" href="css/general.css">
 </head>
     <body>
-    	<?php include 'snippet/menu.php';?>
+        <?php include 'snippet/menu.php';?>
 
-    		<div class="container-fluid">
-    			<div class="row">
-    				<?php include 'snippet/leftmenu.php';?>
-    				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
+            <div class="container-fluid">
+                <div class="row">
+                    <?php include 'snippet/leftmenu.php';?>
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
                         <div style="float: left;font-size: 20px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 Grade
                         </div>
@@ -24,7 +24,7 @@
                           Description
                         </h4>
                         <div>
-        					<table class="ui table selectable blue celled">
+                            <table class="ui table selectable blue celled" id="tableScore">
                                 <thead>
                                     <tr>
                                         <th>Title</th>
@@ -70,7 +70,15 @@
                                 <button type="button" class="btn btn-primary" style="float:right;margin-right: 200px">Statistic</button>
                             </div>
                         </div>    
-    				</div>
+                    </div>
                 </div>
             </div>
+            <script type="text/javascript">
+                activeLeftMenu(4);
+                $(document).ready(function() {
+                    // body...
+                    $("#tableScore tbody tr td:nth-child(2)").css("color","green");
+                    $("#tableScore tbody tr td:nth-child(4)").css("color","green");
+                });
+            </script>
 </html>

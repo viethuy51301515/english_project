@@ -22,12 +22,12 @@
   </style>
 </head>
     <body>
-    	<?php include 'snippet/menu.php';?>
+        <?php include 'snippet/menu.php';?>
 
-    		<div class="container-fluid">
-    			<div class="row">
-    				<?php include 'snippet/leftmenu.php';?>
-    				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
+            <div class="container-fluid">
+                <div class="row">
+                    <?php include 'snippet/leftmenu.php';?>
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
                         <div style="float: left;font-size: 20px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 Notification
                                  <h4 class="ui horizontal divider header">
@@ -35,7 +35,7 @@
                                   Description
                                 </h4>
                         </div>
-    					   <div class="ui comments">
+                           <div class="ui comments">
                               <div class="comment">
                                 <a class="avatar">
                                   <img src="icon/user1.png" style="height: 30;width: 30">
@@ -115,7 +115,12 @@
                                 </div>
                               </form>
                             </div>
-    				</div>
+                    </div>
                 </div>
             </div>
+             <script type="text/javascript">
+                $(document).ready(function() {
+                    activeLeftMenu(6);
+                });
+            </script>
 </html>

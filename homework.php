@@ -10,12 +10,12 @@
   <link rel="stylesheet" type="text/css" href="css/general.css">
 </head>
     <body>
-    	<?php include 'snippet/menu.php';?>
+        <?php include 'snippet/menu.php';?>
 
-    		<div class="container-fluid">
-    			<div class="row">
-    				<?php include 'snippet/leftmenu.php';?>
-    				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
+            <div class="container-fluid">
+                <div class="row">
+                    <?php include 'snippet/leftmenu.php';?>
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 document">
                         <div style="float: left;font-size: 20px;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 Test Online
                         </div>
@@ -23,7 +23,7 @@
                           <i class="tag icon"></i>
                           Description
                         </h4>
-    					<div class="ui relaxed divided list">
+                        <div class="ui relaxed divided list">
                           <div class="item">
                             <i class="large github middle aligned icon"></i>
                             <div class="content">
@@ -60,7 +60,12 @@
                             </div>
                           </div>
                         </div>
-    				</div>
+                    </div>
                 </div>
             </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    activeLeftMenu(3);
+                });
+            </script>
 </html>
